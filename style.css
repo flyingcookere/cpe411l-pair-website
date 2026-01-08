@@ -187,5 +187,31 @@ footer {
 .about-content p {
     line-height: 1.8;
 }
+/* FAQ Page */
+.faq-header {
+    background-color: #f8b195;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.faq-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.faq-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.faq-item h3 {
+    color: #f67280;
+    margin-bottom: 8px;
+}
 
 
