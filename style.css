@@ -125,6 +125,44 @@ footer {
     text-align: center;
     margin-bottom: 40px;
 }
+/* Explore Page */
+.explore-header {
+    background-color: #f8b195;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.explore-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.option-card {
+    background-color: white;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.option-card:hover {
+    transform: translateY(-5px);
+    background-color: #fbe0d8;
+}
+
+.option-card h2 {
+    color: #f67280;
+    margin-bottom: 10px;
+}
+
 
 /* About Page */
 .about-header {
@@ -148,6 +186,32 @@ footer {
 
 .about-content p {
     line-height: 1.8;
+}
+/* FAQ Page */
+.faq-header {
+    background-color: #f8b195;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.faq-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.faq-item {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.faq-item h3 {
+    color: #f67280;
+    margin-bottom: 8px;
 }
 
 
