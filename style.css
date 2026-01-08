@@ -164,3 +164,28 @@ footer {
 }
 
 
+/* About Page */
+.about-header {
+    background-color: #f67280;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.about-content h2 {
+    color: #f67280;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    line-height: 1.8;
+}
+
+
